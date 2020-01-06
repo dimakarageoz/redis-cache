@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engine": {
+    "node": "12.14.0"
+  },
   "scripts": {
-    "start": "node $NODE_DEBUG_OPTION index.js",
+    "start": "node index.js",
     "test": "mocha"
   },
   "author": "",
